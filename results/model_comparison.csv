@@ -1,0 +1,5 @@
+Model,Predictors,Alpha,CV_RMSE_train_only,Train_R2,Train_RMSE,Train_MAE,Test_R2,Test_RMSE,Test_MAE,R2_Gap_Train_minus_Test,Best_On_Test
+Linear (OLS),Time_Index,,46.915436,0.956795,27.865705,22.266061,-0.496312,88.666274,77.164817,1.453108,false
+Quadratic (OLS),"Time_Index, Time_Index^2",,31.720991,0.991160,12.604506,10.013251,0.670603,41.601352,35.968026,0.320558,false
+Ridge Linear,Time_Index (standardised),0.000100,46.915891,0.956795,27.865705,22.266065,-0.496333,88.666897,77.165500,1.453129,false
+Ridge Quadratic,"Time_Index, Time_Index^2 (standardised)",1.000000,23.748588,0.990434,13.111724,10.561005,0.804321,32.064114,28.945525,0.186113,true
